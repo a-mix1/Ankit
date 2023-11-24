@@ -93,16 +93,19 @@ button:hover {
 
   @media screen and (max-width: 600px) {
 
+
+
     .hero h1{
-        font-size: 65px;
+        font-size: 50px;
         line-height: 90%;
-        margin-bottom: 30px;
+        
+        padding-top: 80px;
     }
 
     .location
     {
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     font-weight:100;
     }
     
@@ -111,6 +114,7 @@ button:hover {
     
     font-size: 20px;
     max-width: 400px;
+    font-weight: 400;
   }
 
   button{
