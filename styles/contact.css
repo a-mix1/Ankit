@@ -1,0 +1,63 @@
+.contactme
+  {
+    margin-top: 55px;;
+    text-align: center;
+    font-family: ext;
+  }
+
+  .contactbox
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactbox p{
+    font-family: lighttech;
+  }
+  .contentcontact
+  {
+    display: flex;
+    background-color:#f5be20;
+    border:0.5vmin solid black;
+    color:#1e2749;
+    box-shadow: 10px 10px 0px #000000;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+
+  .contentcontact svg{
+    margin-right: 10px;
+    padding: 5px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: #000000;
+
+}
+
+@media screen and (max-width: 600px) 
+{
+  .contentcontact
+  {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    box-shadow: 5px 5px 0px #000000;
+  }
+  .contentcontact svg{
+    
+    padding: 2px;
+  }
+  .contactbox p{
+    font-size: 14px;
+  }
+
+}

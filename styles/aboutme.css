@@ -1,0 +1,110 @@
+.aboutme
+{
+  
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 25px;
+}
+.aboutcontent
+  {
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .aboutme p{
+    font-size: 20px;
+    text-align: left;
+    max-width:600px;
+    font-family: Rubik,sans-serif;
+    letter-spacing: -0.5px;
+    line-height: 150%;
+  }
+
+  .aboutme h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+    font-family: ext;
+  }
+ 
+  .img1
+  {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img1 img{
+    margin-bottom: -40px;
+  }
+
+  .bento1,.bento2
+  {
+    background: linear-gradient(to right,rgb(255,8,68) 0%,rgb(255,177,153) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: heavytech;
+  }
+
+  /*.cat
+  {
+    width:250px;
+    border-radius: 2rem;
+    
+    
+    
+  }
+  .me
+  {
+    bottom:0;
+    width:250px;
+    rotate: 7deg;    
+    border-radius: 2rem;
+    box-shadow: 7px 7px 0px #000;
+    margin-top: 250px;
+  }
+
+
+
+  .paragraph
+  {
+    
+  }*/
+ 
+  @media screen and (max-width: 600px) 
+  {
+
+    .aboutme
+   {
+    padding-top: 1px;
+    margin-top: 15px;
+    text-align: center;
+   }
+   .aboutme h1{
+    font-size: 40px;
+   }
+    .aboutcontent
+    {
+      
+      display:block;
+  }
+
+  .aboutme p{
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    
+  }
+
+}
+
+
+  
+
+ 

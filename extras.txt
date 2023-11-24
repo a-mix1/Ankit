@@ -1,0 +1,9 @@
+ <div class="aboutimages">
+            <div class="img1">
+                <img class="cat" src="./images/cat.jpg">
+            </div>
+            <div class="img2">
+                <img class="me" src="./images/me.jpg">
+            </div>
+        </div>
+        

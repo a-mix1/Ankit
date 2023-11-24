@@ -1,0 +1,48 @@
+.footer
+{
+    border-top:2px solid black;
+    padding: 30px;
+    margin-top: 60px;
+}
+.icons
+{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.svg1 , .svg2
+{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:35px;
+    box-shadow: 5px 5px #000000;
+}
+.socials{
+    color:black;
+}
+.socials:hover
+{
+    
+    fill:black;
+}
+
+@media screen and (max-width: 600px) 
+{
+
+    .footer
+    {
+        
+        padding: 60px;
+        margin-top: 90px;
+    }
+
+
+}

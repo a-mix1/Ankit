@@ -1,0 +1,121 @@
+
+    @font-face 
+    {
+        font-family: 'ext';
+        src: url('../fonts/boldyea.ttf') format('truetype');    
+    }
+    @font-face 
+    {
+        font-family: 'lighttech';
+        src: url('../fonts/IFKica-Light.ttf') format('truetype');
+
+    }
+    @font-face 
+    {
+        font-family: 'heavytech';
+        src: url('../fonts/IFKica-Bold.ttf') format('truetype');
+        font-weight:100;
+    }
+
+
+
+.hero
+{
+  
+  font-family: 'Audiowide', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: 80px;
+
+ 
+  
+}
+.hero h1{
+    font-size: 90px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: ext;
+    letter-spacing: -2.0px;
+}
+.location
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:400;
+    font-size: 33px;
+    font-family: Rubik,sans-serif;
+    
+}
+.location svg
+{
+    font-weight:700;
+    font-size:60px;
+    margin-right:5px;
+    font-family: lighttech;
+}
+
+.hero p
+{
+    text-align: center;
+    font-size: 30px;
+    max-width: 700px;
+    font-family: Rubik,sans-serif;
+    font-weight:100;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 250px 10px 250px;
+    border-radius: 2rem;
+    font-size: 30px;
+    font-family: 'Audiowide', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color:#f5be20;
+    color:#1e2749;
+    box-shadow: 10px 10px 0px #000000;
+    transition: all 0.3s ease;
+    border:0.5vmin solid black;
+    font-family:lighttech;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #f75445;
+    /*border: 2px solid #f75445;
+    box-shadow: 5px 5px 0px #f75445;*/
+  }
+
+  @media screen and (max-width: 600px) {
+
+    .hero h1{
+        font-size: 65px;
+        line-height: 90%;
+        margin-bottom: 30px;
+    }
+
+    .location
+    {
+    display: flex;
+    font-size: 30px;
+    font-weight:100;
+    }
+    
+    .hero p
+  {
+    
+    font-size: 20px;
+    max-width: 400px;
+  }
+
+  button{
+    
+    padding: 10px 40px 10px 40px;
+
+    }
+  }
