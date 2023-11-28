@@ -2,9 +2,15 @@
 {
    margin-top: 20px;
    display:flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
    
+}
+.skillinside
+{
+  display: flex;
+  column-gap: 15px;
 }
 .skills p{
   font-size: 40px;
@@ -19,12 +25,16 @@
  @media screen and (max-width: 600px) 
  {
 
+  .skillinside
+  {
+    column-gap: 0;
+  }
   .skills p{
     font-size: 20px;   
     font-weight:700; 
   }
    .skill img{
-     width:40px;
+     width:58px;
    }
 
 

@@ -11,22 +11,24 @@
     align-items: center;
     justify-content: center;
     column-gap: 10px;
+    border: none;
 }
 
 .svg1 , .svg2
 {
     padding: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(51, 51, 51);
     border-radius: 1rem;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     width:35px;
-    box-shadow: 5px 5px #000000;
+   
 }
 .socials{
-    color:black;
+    color:rgb(255, 255, 255);
+    
 }
 .socials:hover
 {

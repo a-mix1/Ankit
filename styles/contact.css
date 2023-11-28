@@ -17,7 +17,8 @@
   .contentcontact
   {
     display: flex;
-    background-color:#f5be20;
+    /*background-color:#f5be20;*/
+    background-color: white;
     border:0.5vmin solid black;
     color:#1e2749;
     box-shadow: 10px 10px 0px #000000;

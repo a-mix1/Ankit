@@ -10,7 +10,7 @@
   {
     position: relative;
     display:flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     
@@ -20,8 +20,9 @@
     font-size: 20px;
     text-align: left;
     max-width:600px;
-    font-family: Rubik,sans-serif;
-    letter-spacing: -0.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    letter-spacing: -1.0px;
     line-height: 150%;
   }
 
@@ -97,7 +98,7 @@
 
   .aboutme p{
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     margin: 20px;
     
   }

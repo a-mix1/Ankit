@@ -63,8 +63,9 @@
     text-align: center;
     font-size: 30px;
     max-width: 700px;
-    font-family: Rubik,sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight:100;
+    letter-spacing: -1.0px;
 }
 
 button{
@@ -77,7 +78,6 @@ button{
     text-align: center;
     text-decoration: none;
     background-color:#f5be20;
-    color:#1e2749;
     box-shadow: 10px 10px 0px #000000;
     transition: all 0.3s ease;
     border:0.5vmin solid black;
@@ -100,15 +100,16 @@ button:hover {
     .hero h1{
         font-size: 50px;
         line-height: 90%;
-        
-        padding-top: 70px;
+        padding-top: 50px;
+
     }
 
     .location
     {
+    margin-top: 10px;
     display: flex;
     font-size: 25px;
-    font-weight:200;
+    font-weight:300;
     }
     
     .hero p
@@ -116,7 +117,7 @@ button:hover {
     
     font-size: 20px;
     max-width: 400px;
-    font-weight: 400;
+    font-weight: 100;
   }
 
   button{
