@@ -1,4 +1,4 @@
-# [Ankit]'s Portfolio
+# Ankit's Portfolio
 
 Welcome to the codebase of my personal portfolio website! This project showcases my skills, projects, and experiences as a [Your Profession/Title].
 
