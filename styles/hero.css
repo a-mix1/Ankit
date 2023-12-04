@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 60px;
   margin-bottom: 80px;
 
  
@@ -62,27 +62,44 @@
 .hero p
 {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     max-width: 700px;
     font-family: 'Open Sans', sans-serif;
     font-weight:100;
     letter-spacing: -1.0px;
 }
 
+.sobuttons
+{
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
 button{
     display: inline-block;
-    padding: 10px 250px 10px 250px;
+    padding: 10px 120px 10px 120px;
     border-radius: 2rem;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Audiowide', sans-serif;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     background-color:#f5be20;
-    box-shadow: 10px 10px 0px #000000;
     transition: all 0.3s ease;
     border:0.5vmin solid black;
     font-family:lighttech;
+    
+}
+.linkedin button
+{
+    box-shadow: 0px 8px 0px  #000000;
+}
+.resume button{
+    box-shadow: 0px 8px 0px #000000;
+    background-color: #e792c2;
 }
 
 button:hover {
@@ -91,6 +108,8 @@ button:hover {
     /*border: 2px solid #f75445;
     box-shadow: 5px 5px 0px #f75445;*/
   }
+
+
 
   @media screen and (max-width: 600px) {
 
@@ -123,7 +142,13 @@ button:hover {
 
   button{
     
-    padding: 10px 40px 10px 40px;
+    padding: 10px 30px 10px 30px;
 
     }
+
+    .sobuttons
+{
+ 
+  column-gap: 2px;
   }
+}
