@@ -18,9 +18,14 @@
   font-family: ext;
 }
  .skill img{
-   width:70px;
+   width:65px;
+   
    margin-left: 5px;
  }
+ .skill:hover img {
+  filter: none; /* Removes filter on hover, showing original logo */
+  transform: scale(1.1); /* Slightly enlarges on hover */
+}
 
  @media screen and (max-width: 600px) 
  {
@@ -34,7 +39,7 @@
     font-weight:700; 
   }
    .skill img{
-     width:58px;
+     width:50px;
    }
 
 

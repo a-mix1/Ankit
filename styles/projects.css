@@ -34,10 +34,11 @@
   height:350px;
   transition: .4s ease-in-out;
   border: 0.5vmin solid rgb(0, 0, 0);
-  /*background-color: #06b1b3; greenblue*/
-  /*background-color: #e792c2;*/
   background-color: white;
-  background-color: (69, 69, 69);
+  /*background-color: #06b1b3; 
+  background-color: #e792c2;
+  background-color: #f7f7f9;
+  background-color: (69, 69, 69);*/
   box-shadow: 10px 7px #000000;
   text-align: center;
   margin-right: 20px;
